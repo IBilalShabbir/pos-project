@@ -1,0 +1,32 @@
+.container__sidebar__header__logo {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1em;
+}
+.container__sidebar__header__logo img {
+  width: 100%;
+  max-width: 130px;
+}
+.container__sidebar__header__entries {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1em;
+}
+.container__sidebar__entries {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.container__sidebar__entries__links {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
