@@ -18,7 +18,6 @@ export default function index() {
         heading="12300"
         subheading="Total Sales(rs)"
       />
-      Home
     </>
   );
 }

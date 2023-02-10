@@ -1,6 +1,7 @@
 :root {
   --gray: #6b6b6b;
   --primary: #01a3c7;
+  --primary__light: #96c1e952;
 }
 
 *,
@@ -80,4 +81,62 @@ body {
   font-weight: bold;
   color: #444444;
   text-transform: capitalize;
+}
+
+.popup__container {
+  height: 100%;
+  width: 100%;
+}
+.popup__container__overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #01a3c77c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+.popup__container__content {
+  height: 500px;
+  width: 400px;
+  background-color: #ffff;
+  border-radius: 20px;
+}
+.popup__container__content__header {
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5em;
+  border-bottom: 1px solid #e5e5e5;
+}
+.popup__container__content__header__left {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  font-weight: bold;
+  color: #444444;
+  svg {
+    margin-right: 0.5em;
+  }
+}
+.popup__container__content__header__right button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.popup__container__content__header__right__svg {
+  background-color: var(--primary__light);
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.popup__container__content__header__right button:hover {
 }

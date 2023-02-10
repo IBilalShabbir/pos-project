@@ -1,7 +1,7 @@
 import { Header } from "components";
 import { useState } from "react";
 import { Outlet } from "react-router-dom";
-import { Sidebar } from "../components";
+import { Popup, Sidebar } from "../components";
 
 export const meta = {
   title: "Remixer",
@@ -13,6 +13,7 @@ export default function App() {
   const [sidebarOpen, setSidebarOpen] = useState(true);
   return (
     <>
+      <Popup />
       <div className="container">
         {sidebarOpen && <Sidebar setSidebarOpen={setSidebarOpen} />}
         <div className="container__main">
