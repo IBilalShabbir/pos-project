@@ -3,21 +3,28 @@ import React from "react";
 export default function index() {
   return (
     <>
-      <HomeStatCard
-        color="white"
-        heading="12300"
-        subheading="Total Sales(rs)"
-      />
-      <HomeStatCard
-        color="white"
-        heading="12300"
-        subheading="Total Sales(rs)"
-      />
-      <HomeStatCard
-        color="white"
-        heading="12300"
-        subheading="Total Sales(rs)"
-      />
+      <div className="home__state__container__wraper">
+        <HomeStatCard
+          color="white"
+          heading="12300"
+          subheading="Total Sales(rs)"
+        />
+        <HomeStatCard
+          color="#EBF7FF"
+          heading="12300"
+          subheading="Total Profit"
+        />
+        <HomeStatCard
+          color="#EBF7FF"
+          heading="12300"
+          subheading="Total Customers"
+        />
+        <HomeStatCard
+          color="#FFD0D2"
+          heading="12300"
+          subheading="Out of Stock"
+        />
+      </div>
     </>
   );
 }

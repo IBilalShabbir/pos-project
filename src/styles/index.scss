@@ -1,12 +1,20 @@
+.home__state__container__wraper {
+  width: 100%;
+  background-color: #0095ef;
+  display: flex;
+  //   justify-content: space-between;
+  //   align-items: center;
+}
 .home__header__card {
   border-radius: 12px;
   border: 1px solid #dddcdc;
   display: flex;
   justify-content: center;
   flex-direction: column;
-  width: fit-content;
+  width: 200px;
   padding: 1em 4em 1em 1em;
   cursor: pointer;
+  margin: 12px;
 }
 .home__header__card__heading {
   color: #0095ef;
