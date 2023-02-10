@@ -1,0 +1,20 @@
+.home__header__card {
+  border-radius: 12px;
+  border: 1px solid #dddcdc;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: fit-content;
+  padding: 1em 4em 1em 1em;
+  cursor: pointer;
+}
+.home__header__card__heading {
+  color: #0095ef;
+  font-size: 24px;
+  font-weight: 600;
+}
+.home__header__card__subheading {
+  color: #444444;
+  font-size: 12px;
+  font-weight: 600;
+}
