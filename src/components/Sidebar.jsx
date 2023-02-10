@@ -10,9 +10,10 @@ export default function Sidebar() {
         <img src={PngSidebarlogo} alt="sidebarlogo" />
       </div>
       <div className="container__sidebar__entries">
-        {sidebarEnteries.map((item) => {
+        {sidebarEnteries.map((item, index) => {
           return (
             <NavLink
+              end={index === 0}
               key={item.path}
               to={item.path}
               className="container__sidebar__entry__content__entry"

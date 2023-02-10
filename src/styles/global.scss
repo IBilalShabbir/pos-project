@@ -1,3 +1,8 @@
+:root {
+  --gray: #6b6b6b;
+  --primary: #01a3c7;
+}
+
 *,
 *::after,
 *::before {
@@ -69,4 +74,10 @@ body {
   overflow: auto;
   border-radius: 10px;
   padding: 1em;
+}
+.container__main__header__title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #444444;
+  text-transform: capitalize;
 }
