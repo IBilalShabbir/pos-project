@@ -1,4 +1,3 @@
-import React from "react";
 import { NavLink } from "react-router-dom";
 import { PngSidebarlogo } from "../assets";
 import { sidebarEnteries } from "../screens/globalarray";
