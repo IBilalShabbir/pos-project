@@ -1,3 +1,6 @@
+.product__container {
+  height: 100%;
+}
 .product__container__header {
   display: flex;
   width: 100%;
@@ -9,13 +12,92 @@
 .product__container__header__left__content {
   display: flex;
   align-items: center;
-  border: 1px solid #ff0707;
+  border-radius: 10px;
+  padding: 0.5em;
   width: 40%;
+  background-color: #f3f3f3;
 }
 .product__container__header__left__content svg {
   margin-right: 0.5em;
 }
 .product__container__header__left__content input {
-  padding: 1em 0em;
+  border: none;
+  outline: none;
   width: 100%;
+  background-color: #f3f3f3;
+  color: var(--primary);
+  font-weight: bold;
+}
+.product__container__header__right__content select {
+  border: 1px solid #cecece;
+  outline: none;
+  background-color: #fff;
+  padding: 0.5em;
+  color: #acacac;
+  font-weight: 600;
+  border-radius: 10px;
+  font-family: inherit;
+  &::-ms-expand {
+    display: none;
+  }
+}
+.product__container__body {
+  height: 100%;
+}
+
+.product__container__body__table {
+  height: 400px;
+  display: grid;
+  grid-template-columns: repeat(12, auto);
+  grid-template-rows: repeat(auto, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  font-size: 12px;
+  margin-top: 1em;
+  border: 1px solid #cecece;
+  border-radius: 10px;
+  overflow-y: scroll;
+}
+.product__container__body__table__item {
+  padding: 1em;
+}
+.product__container__body__table__item:nth-child(-n + 12) {
+  font-weight: bold;
+  border-bottom: 2px solid #cecece;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: #fff;
+}
+.product__container__body__table__item:nth-child(2n) {
+  background-color: #ff5757;
+  column-count: 1;
+}
+.product__container__body__table__item__active {
+  background-color: var(--primary__light);
+  padding: 0.5em 1em;
+  border-radius: 15px;
+  color: var(--primary);
+  font-weight: bold;
+}
+.product__container__body__table__item__inactive {
+  background-color: #ffdbdb;
+  padding: 0.5em 1em;
+  border-radius: 15px;
+  color: #ff5757;
+  font-weight: bold;
+}
+
+.product__container__body ::-webkit-scrollbar {
+  background-color: transparent;
+  width: 6px;
+}
+.product__container__body ::-webkit-scrollbar-thumb {
+  width: 3px;
+  background-color: #7a7a7a;
+  height: 20px;
+  border-radius: 10px;
+}
+.product__container__body ::-webkit-scrollbar-button {
+  display: none;
 }

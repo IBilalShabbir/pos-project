@@ -37,14 +37,732 @@ export default function product() {
         <div className="product__container__header__right">
           <div className="product__container__header__right__content">
             <select name="sort" id="sort">
-              <option value="1">Assending</option>
-              <option value="1">dessending</option>
-              <option value="1">Assending</option>
+              <option value="1">Sort</option>
+              <option value="2">Assending</option>
+              <option value="3">dessending</option>
+              <option value="4">Assending</option>
             </select>
           </div>
         </div>
       </div>
-      <div className="product__container__body">Body</div>
+      <div className="product__container__body">
+        <div className="product__container__body__table">
+          <div className="product__container__body__table__item">Sr.</div>
+          <div className="product__container__body__table__item">Name</div>
+          <div className="product__container__body__table__item">Type</div>
+          <div className="product__container__body__table__item">Category</div>
+          <div className="product__container__body__table__item">
+            Sale Price
+          </div>
+          <div className="product__container__body__table__item">
+            Purchase Price
+          </div>
+          <div className="product__container__body__table__item">
+            Disc.Price
+          </div>
+          <div className="product__container__body__table__item">
+            Distributor
+          </div>
+          <div className="product__container__body__table__item">Exp.Date</div>
+          <div className="product__container__body__table__item">Status</div>
+          <div className="product__container__body__table__item">Quantity</div>
+          <div className="product__container__body__table__item">
+            Manufacturer
+          </div>
+          <div className="product__container__body__table__item">52</div>
+          <div className="product__container__body__table__item">Panadol</div>
+          <div className="product__container__body__table__item">Tab</div>
+          <div className="product__container__body__table__item">Medicine</div>
+          <div className="product__container__body__table__item">450</div>
+          <div className="product__container__body__table__item">500</div>
+          <div className="product__container__body__table__item">350</div>
+          <div className="product__container__body__table__item">Mahad</div>
+          <div className="product__container__body__table__item">5 Mar 22</div>
+          <div className="product__container__body__table__item">
+            <span className="product__container__body__table__item__active">
+              Active
+            </span>
+          </div>
+          <div className="product__container__body__table__item">100</div>
+          <div className="product__container__body__table__item">
+            Saleeem Boy
+          </div>
+          <div className="product__container__body__table__item">52</div>
+          <div className="product__container__body__table__item">Panadol</div>
+          <div className="product__container__body__table__item">Tab</div>
+          <div className="product__container__body__table__item">Medicine</div>
+          <div className="product__container__body__table__item">450</div>
+          <div className="product__container__body__table__item">500</div>
+          <div className="product__container__body__table__item">350</div>
+          <div className="product__container__body__table__item">Mahad</div>
+          <div className="product__container__body__table__item">5 Mar 22</div>
+          <div className="product__container__body__table__item">
+            <span className="product__container__body__table__item__active">
+              Active
+            </span>
+          </div>
+          <div className="product__container__body__table__item">100</div>
+          <div className="product__container__body__table__item">
+            Saleeem Boy
+          </div>
+          {/* ------------------------------row------------------------------- */}
+          <div className="product__container__body__table__item">52</div>
+          <div className="product__container__body__table__item">Panadol</div>
+          <div className="product__container__body__table__item">Tab</div>
+          <div className="product__container__body__table__item">Medicine</div>
+          <div className="product__container__body__table__item">450</div>
+          <div className="product__container__body__table__item">500</div>
+          <div className="product__container__body__table__item">350</div>
+          <div className="product__container__body__table__item">Mahad</div>
+          <div className="product__container__body__table__item">5 Mar 22</div>
+          <div className="product__container__body__table__item">
+            <span className="product__container__body__table__item__active">
+              Active
+            </span>
+          </div>
+          <div className="product__container__body__table__item">100</div>
+          <div className="product__container__body__table__item">
+            Saleeem Boy
+          </div>
+          {/* ------------------------------row------------------------------- */}
+          <div className="product__container__body__table__item">52</div>
+          <div className="product__container__body__table__item">Panadol</div>
+          <div className="product__container__body__table__item">Tab</div>
+          <div className="product__container__body__table__item">Medicine</div>
+          <div className="product__container__body__table__item">450</div>
+          <div className="product__container__body__table__item">500</div>
+          <div className="product__container__body__table__item">350</div>
+          <div className="product__container__body__table__item">Mahad</div>
+          <div className="product__container__body__table__item">5 Mar 22</div>
+          <div className="product__container__body__table__item">
+            <span className="product__container__body__table__item__active">
+              Active
+            </span>
+          </div>
+          <div className="product__container__body__table__item">100</div>
+          <div className="product__container__body__table__item">
+            Saleeem Boy
+          </div>
+          {/* ------------------------------row------------------------------- */}
+          <div className="product__container__body__table__item">52</div>
+          <div className="product__container__body__table__item">Panadol</div>
+          <div className="product__container__body__table__item">Tab</div>
+          <div className="product__container__body__table__item">Medicine</div>
+          <div className="product__container__body__table__item">450</div>
+          <div className="product__container__body__table__item">500</div>
+          <div className="product__container__body__table__item">350</div>
+          <div className="product__container__body__table__item">Mahad</div>
+          <div className="product__container__body__table__item">5 Mar 22</div>
+          <div className="product__container__body__table__item">
+            <span className="product__container__body__table__item__active">
+              Active
+            </span>
+          </div>
+          <div className="product__container__body__table__item">100</div>
+          <div className="product__container__body__table__item">
+            Saleeem Boy
+          </div>
+          {/* ------------------------------row------------------------------- */}
+          <div className="product__container__body__table__item">52</div>
+          <div className="product__container__body__table__item">Panadol</div>
+          <div className="product__container__body__table__item">Tab</div>
+          <div className="product__container__body__table__item">Medicine</div>
+          <div className="product__container__body__table__item">450</div>
+          <div className="product__container__body__table__item">500</div>
+          <div className="product__container__body__table__item">350</div>
+          <div className="product__container__body__table__item">Mahad</div>
+          <div className="product__container__body__table__item">5 Mar 22</div>
+          <div className="product__container__body__table__item">
+            <span className="product__container__body__table__item__active">
+              Active
+            </span>
+          </div>
+          <div className="product__container__body__table__item">100</div>
+          <div className="product__container__body__table__item">
+            Saleeem Boy
+          </div>
+          {/* ------------------------------row------------------------------- */}
+          <div className="product__container__body__table__item">52</div>
+          <div className="product__container__body__table__item">Panadol</div>
+          <div className="product__container__body__table__item">Tab</div>
+          <div className="product__container__body__table__item">Medicine</div>
+          <div className="product__container__body__table__item">450</div>
+          <div className="product__container__body__table__item">500</div>
+          <div className="product__container__body__table__item">350</div>
+          <div className="product__container__body__table__item">Mahad</div>
+          <div className="product__container__body__table__item">5 Mar 22</div>
+          <div className="product__container__body__table__item">
+            <span className="product__container__body__table__item__active">
+              Active
+            </span>
+          </div>
+          <div className="product__container__body__table__item">100</div>
+          <div className="product__container__body__table__item">
+            Saleeem Boy
+          </div>
+          {/* ------------------------------row------------------------------- */}
+          <div className="product__container__body__table__item">52</div>
+          <div className="product__container__body__table__item">Panadol</div>
+          <div className="product__container__body__table__item">Tab</div>
+          <div className="product__container__body__table__item">Medicine</div>
+          <div className="product__container__body__table__item">450</div>
+          <div className="product__container__body__table__item">500</div>
+          <div className="product__container__body__table__item">350</div>
+          <div className="product__container__body__table__item">Mahad</div>
+          <div className="product__container__body__table__item">5 Mar 22</div>
+          <div className="product__container__body__table__item">
+            <span className="product__container__body__table__item__active">
+              Active
+            </span>
+          </div>
+          <div className="product__container__body__table__item">100</div>
+          <div className="product__container__body__table__item">
+            Saleeem Boy
+          </div>
+          {/* ------------------------------row------------------------------- */}
+          <div className="product__container__body__table__item">52</div>
+          <div className="product__container__body__table__item">Panadol</div>
+          <div className="product__container__body__table__item">Tab</div>
+          <div className="product__container__body__table__item">Medicine</div>
+          <div className="product__container__body__table__item">450</div>
+          <div className="product__container__body__table__item">500</div>
+          <div className="product__container__body__table__item">350</div>
+          <div className="product__container__body__table__item">Mahad</div>
+          <div className="product__container__body__table__item">5 Mar 22</div>
+          <div className="product__container__body__table__item">
+            <span className="product__container__body__table__item__active">
+              Active
+            </span>
+          </div>
+          <div className="product__container__body__table__item">100</div>
+          <div className="product__container__body__table__item">
+            Saleeem Boy
+          </div>
+          {/* ------------------------------row------------------------------- */}
+          <div className="product__container__body__table__item">52</div>
+          <div className="product__container__body__table__item">Panadol</div>
+          <div className="product__container__body__table__item">Tab</div>
+          <div className="product__container__body__table__item">Medicine</div>
+          <div className="product__container__body__table__item">450</div>
+          <div className="product__container__body__table__item">500</div>
+          <div className="product__container__body__table__item">350</div>
+          <div className="product__container__body__table__item">Mahad</div>
+          <div className="product__container__body__table__item">5 Mar 22</div>
+          <div className="product__container__body__table__item">
+            <span className="product__container__body__table__item__active">
+              Active
+            </span>
+          </div>
+          <div className="product__container__body__table__item">100</div>
+          <div className="product__container__body__table__item">
+            Saleeem Boy
+          </div>
+          {/* ------------------------------row------------------------------- */}
+          <div className="product__container__body__table__item">52</div>
+          <div className="product__container__body__table__item">Panadol</div>
+          <div className="product__container__body__table__item">Tab</div>
+          <div className="product__container__body__table__item">Medicine</div>
+          <div className="product__container__body__table__item">450</div>
+          <div className="product__container__body__table__item">500</div>
+          <div className="product__container__body__table__item">350</div>
+          <div className="product__container__body__table__item">Mahad</div>
+          <div className="product__container__body__table__item">5 Mar 22</div>
+          <div className="product__container__body__table__item">
+            <span className="product__container__body__table__item__active">
+              Active
+            </span>
+          </div>
+          <div className="product__container__body__table__item">100</div>
+          <div className="product__container__body__table__item">
+            Saleeem Boy
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
+
+// <table className="product__container__body__table">
+// <thead className="product__container__body__content__table__head">
+//   <tr className="product__container__body__content__table__head__row">
+//     <th className="product__container__body__table__item">
+//       Sr.
+//     </th>
+//     <th className="product__container__body__table__item">
+//       Name
+//     </th>
+//     <th className="product__container__body__table__item">
+//       Type
+//     </th>
+//     <th className="product__container__body__table__item">
+//       Category
+//     </th>
+//     <th className="product__container__body__table__item">
+//       Sale Price
+//     </th>
+//     <th className="product__container__body__table__item">
+//       Purchase Price
+//     </th>
+//     <th className="product__container__body__table__item">
+//       Disc.Price
+//     </th>
+//     <th className="product__container__body__table__item">
+//       Distributor
+//     </th>
+//     <th className="product__container__body__table__item">
+//       Exp.Date
+//     </th>
+//     <th className="product__container__body__table__item">
+//       Status
+//     </th>
+//     <th className="product__container__body__table__item">
+//       Quantity
+//     </th>
+//     <th className="product__container__body__table__item">
+//       Manufacturer
+//     </th>
+//   </tr>
+// </thead>
+// <tbody className="product__container__body__content__table__body">
+//   <tr className="product__container__body__content__table__body__row">
+//     <td className="product__container__body__table__item">
+//       52
+//     </td>
+//     <td className="product__container__body__table__item">
+//       Panadol
+//     </td>
+//     <td className="product__container__body__table__item">
+//       Tab
+//     </td>
+//     <td className="product__container__body__table__item">
+//       Medicine
+//     </td>
+//     <td className="product__container__body__table__item">
+//       450
+//     </td>
+//     <td className="product__container__body__table__item">
+//       500
+//     </td>
+//     <td className="product__container__body__table__item">
+//       350
+//     </td>
+//     <td className="product__container__body__table__item">
+//       Mahad
+//     </td>
+//     <td className="product__container__body__table__item">
+//       5 Mar 22
+//     </td>
+//     <td className="product__container__body__table__item">
+//       <span className="product__container__body__table__item__active">
+//         Active
+//       </span>
+//     </td>
+//     <td className="product__container__body__table__item">
+//       100
+//     </td>
+//     <td className="product__container__body__table__item">
+//       Saleeem Boy
+//     </td>
+//   </tr>
+//   <tr className="product__container__body__content__table__body__row">
+//     <td className="product__container__body__table__item">
+//       52
+//     </td>
+//     <td className="product__container__body__table__item">
+//       Panadol(500mg)
+//     </td>
+//     <td className="product__container__body__table__item">
+//       Tab
+//     </td>
+//     <td className="product__container__body__table__item">
+//       Medicine
+//     </td>
+//     <td className="product__container__body__table__item">
+//       450
+//     </td>
+//     <td className="product__container__body__table__item">
+//       500
+//     </td>
+//     <td className="product__container__body__table__item">
+//       350
+//     </td>
+//     <td className="product__container__body__table__item">
+//       Mahad
+//     </td>
+//     <td className="product__container__body__table__item">
+//       5 Mar 22
+//     </td>
+//     <td className="product__container__body__table__item">
+//       <span className="product__container__body__table__item__inactive">
+//         Inactive
+//       </span>
+//     </td>
+//     <td className="product__container__body__table__item">
+//       100
+//     </td>
+//     <td className="product__container__body__table__item">
+//       Saleeem Boy
+//     </td>
+//   </tr>
+//   <tr className="product__container__body__content__table__body__row">
+//     <td className="product__container__body__table__item">
+//       52
+//     </td>
+//     <td className="product__container__body__table__item">
+//       Panadol
+//     </td>
+//     <td className="product__container__body__table__item">
+//       Tab
+//     </td>
+//     <td className="product__container__body__table__item">
+//       Medicine
+//     </td>
+//     <td className="product__container__body__table__item">
+//       450
+//     </td>
+//     <td className="product__container__body__table__item">
+//       500
+//     </td>
+//     <td className="product__container__body__table__item">
+//       350
+//     </td>
+//     <td className="product__container__body__table__item">
+//       Mahad
+//     </td>
+//     <td className="product__container__body__table__item">
+//       5 Mar 22
+//     </td>
+//     <td className="product__container__body__table__item">
+//       <span className="product__container__body__table__item__active">
+//         Active
+//       </span>
+//     </td>
+//     <td className="product__container__body__table__item">
+//       100
+//     </td>
+//     <td className="product__container__body__table__item">
+//       Saleeem Boy
+//     </td>
+//   </tr>
+//   <tr className="product__container__body__content__table__body__row">
+//     <td className="product__container__body__table__item">
+//       52
+//     </td>
+//     <td className="product__container__body__table__item">
+//       Panadol
+//     </td>
+//     <td className="product__container__body__table__item">
+//       Tab
+//     </td>
+//     <td className="product__container__body__table__item">
+//       Medicine
+//     </td>
+//     <td className="product__container__body__table__item">
+//       450
+//     </td>
+//     <td className="product__container__body__table__item">
+//       500
+//     </td>
+//     <td className="product__container__body__table__item">
+//       350
+//     </td>
+//     <td className="product__container__body__table__item">
+//       Mahad
+//     </td>
+//     <td className="product__container__body__table__item">
+//       5 Mar 22
+//     </td>
+//     <td className="product__container__body__table__item">
+//       <span className="product__container__body__table__item__active">
+//         Active
+//       </span>
+//     </td>
+//     <td className="product__container__body__table__item">
+//       100
+//     </td>
+//     <td className="product__container__body__table__item">
+//       Saleeem Boy
+//     </td>
+//   </tr>
+//   <tr className="product__container__body__content__table__body__row">
+//     <td className="product__container__body__table__item">
+//       52
+//     </td>
+//     <td className="product__container__body__table__item">
+//       Panadol
+//     </td>
+//     <td className="product__container__body__table__item">
+//       Tab
+//     </td>
+//     <td className="product__container__body__table__item">
+//       Medicine
+//     </td>
+//     <td className="product__container__body__table__item">
+//       450
+//     </td>
+//     <td className="product__container__body__table__item">
+//       500
+//     </td>
+//     <td className="product__container__body__table__item">
+//       350
+//     </td>
+//     <td className="product__container__body__table__item">
+//       Mahad
+//     </td>
+//     <td className="product__container__body__table__item">
+//       5 Mar 22
+//     </td>
+//     <td className="product__container__body__table__item">
+//       <span className="product__container__body__table__item__active">
+//         Active
+//       </span>
+//     </td>
+//     <td className="product__container__body__table__item">
+//       100
+//     </td>
+//     <td className="product__container__body__table__item">
+//       Saleeem Boy
+//     </td>
+//   </tr>
+//   <tr className="product__container__body__content__table__body__row">
+//     <td className="product__container__body__table__item">
+//       52
+//     </td>
+//     <td className="product__container__body__table__item">
+//       Intemizol(500mg)
+//     </td>
+//     <td className="product__container__body__table__item">
+//       Tab
+//     </td>
+//     <td className="product__container__body__table__item">
+//       Medicine
+//     </td>
+//     <td className="product__container__body__table__item">
+//       450
+//     </td>
+//     <td className="product__container__body__table__item">
+//       500
+//     </td>
+//     <td className="product__container__body__table__item">
+//       350
+//     </td>
+//     <td className="product__container__body__table__item">
+//       Mahad
+//     </td>
+//     <td className="product__container__body__table__item">
+//       5 Mar 22
+//     </td>
+//     <td className="product__container__body__table__item">
+//       <span className="product__container__body__table__item__inactive">
+//         Inactive
+//       </span>
+//     </td>
+//     <td className="product__container__body__table__item">
+//       100
+//     </td>
+//     <td className="product__container__body__table__item">
+//       Saleeem Boy
+//     </td>
+//   </tr>
+//   <tr className="product__container__body__content__table__body__row">
+//     <td className="product__container__body__table__item">
+//       52
+//     </td>
+//     <td className="product__container__body__table__item">
+//       Panadol
+//     </td>
+//     <td className="product__container__body__table__item">
+//       Tab
+//     </td>
+//     <td className="product__container__body__table__item">
+//       Medicine
+//     </td>
+//     <td className="product__container__body__table__item">
+//       450
+//     </td>
+//     <td className="product__container__body__table__item">
+//       500
+//     </td>
+//     <td className="product__container__body__table__item">
+//       350
+//     </td>
+//     <td className="product__container__body__table__item">
+//       Mahad
+//     </td>
+//     <td className="product__container__body__table__item">
+//       5 Mar 22
+//     </td>
+//     <td className="product__container__body__table__item">
+//       <span className="product__container__body__table__item__active">
+//         Active
+//       </span>
+//     </td>
+//     <td className="product__container__body__table__item">
+//       100
+//     </td>
+//     <td className="product__container__body__table__item">
+//       Saleeem Boy
+//     </td>
+//   </tr>
+//   <tr className="product__container__body__content__table__body__row">
+//     <td className="product__container__body__table__item">
+//       52
+//     </td>
+//     <td className="product__container__body__table__item">
+//       Panadol
+//     </td>
+//     <td className="product__container__body__table__item">
+//       Tab
+//     </td>
+//     <td className="product__container__body__table__item">
+//       Medicine
+//     </td>
+//     <td className="product__container__body__table__item">
+//       450
+//     </td>
+//     <td className="product__container__body__table__item">
+//       500
+//     </td>
+//     <td className="product__container__body__table__item">
+//       350
+//     </td>
+//     <td className="product__container__body__table__item">
+//       Mahad
+//     </td>
+//     <td className="product__container__body__table__item">
+//       5 Mar 22
+//     </td>
+//     <td className="product__container__body__table__item">
+//       <span className="product__container__body__table__item__active">
+//         Active
+//       </span>
+//     </td>
+//     <td className="product__container__body__table__item">
+//       100
+//     </td>
+//     <td className="product__container__body__table__item">
+//       Saleeem Boy
+//     </td>
+//   </tr>
+//   <tr className="product__container__body__content__table__body__row">
+//     <td className="product__container__body__table__item">
+//       52
+//     </td>
+//     <td className="product__container__body__table__item">
+//       Panadol
+//     </td>
+//     <td className="product__container__body__table__item">
+//       Tab
+//     </td>
+//     <td className="product__container__body__table__item">
+//       Medicine
+//     </td>
+//     <td className="product__container__body__table__item">
+//       450
+//     </td>
+//     <td className="product__container__body__table__item">
+//       500
+//     </td>
+//     <td className="product__container__body__table__item">
+//       350
+//     </td>
+//     <td className="product__container__body__table__item">
+//       Mahad
+//     </td>
+//     <td className="product__container__body__table__item">
+//       5 Mar 22
+//     </td>
+//     <td className="product__container__body__table__item">
+//       <span className="product__container__body__table__item__active">
+//         Active
+//       </span>
+//     </td>
+//     <td className="product__container__body__table__item">
+//       100
+//     </td>
+//     <td className="product__container__body__table__item">
+//       Saleeem Boy
+//     </td>
+//   </tr>
+//   <tr className="product__container__body__content__table__body__row">
+//     <td className="product__container__body__table__item">
+//       52
+//     </td>
+//     <td className="product__container__body__table__item">
+//       Panadol
+//     </td>
+//     <td className="product__container__body__table__item">
+//       Tab
+//     </td>
+//     <td className="product__container__body__table__item">
+//       Medicine
+//     </td>
+//     <td className="product__container__body__table__item">
+//       450
+//     </td>
+//     <td className="product__container__body__table__item">
+//       500
+//     </td>
+//     <td className="product__container__body__table__item">
+//       350
+//     </td>
+//     <td className="product__container__body__table__item">
+//       Mahad
+//     </td>
+//     <td className="product__container__body__table__item">
+//       5 Mar 22
+//     </td>
+//     <td className="product__container__body__table__item">
+//       <span className="product__container__body__table__item__active">
+//         Active
+//       </span>
+//     </td>
+//     <td className="product__container__body__table__item">
+//       100
+//     </td>
+//     <td className="product__container__body__table__item">
+//       Saleeem Boy
+//     </td>
+//   </tr>
+//   <tr className="product__container__body__content__table__body__row">
+//     <td className="product__container__body__table__item">
+//       52
+//     </td>
+//     <td className="product__container__body__table__item">
+//       Panadol
+//     </td>
+//     <td className="product__container__body__table__item">
+//       Tab
+//     </td>
+//     <td className="product__container__body__table__item">
+//       Medicine
+//     </td>
+//     <td className="product__container__body__table__item">
+//       450
+//     </td>
+//     <td className="product__container__body__table__item">
+//       500
+//     </td>
+//     <td className="product__container__body__table__item">
+//       350
+//     </td>
+//     <td className="product__container__body__table__item">
+//       Mahad
+//     </td>
+//     <td className="product__container__body__table__item">
+//       5 Mar 22
+//     </td>
+//     <td className="product__container__body__table__item">
+//       <span className="product__container__body__table__item__active">
+//         Active
+//       </span>
+//     </td>
+//     <td className="product__container__body__table__item">
+//       100
+//     </td>
+//     <td className="product__container__body__table__item">
+//       Saleeem Boy
+//     </td>
+//   </tr>
+// </tbody>
+// </table>
