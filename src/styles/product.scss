@@ -1,0 +1,21 @@
+.product__container__header {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.product__container__header__left {
+  flex: 1;
+}
+.product__container__header__left__content {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ff0707;
+  width: 40%;
+}
+.product__container__header__left__content svg {
+  margin-right: 0.5em;
+}
+.product__container__header__left__content input {
+  padding: 1em 0em;
+  width: 100%;
+}
