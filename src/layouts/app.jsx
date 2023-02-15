@@ -17,7 +17,7 @@ export default function App() {
       <div className="container">
         {sidebarOpen && <Sidebar setSidebarOpen={setSidebarOpen} />}
         <div className="container__main">
-          <Header setSidebarOpen={setSidebarOpen} />
+          {/* <Header setSidebarOpen={setSidebarOpen} /> */}
           <div className="container__main__content">
             <Outlet />
           </div>

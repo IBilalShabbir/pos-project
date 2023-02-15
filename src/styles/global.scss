@@ -37,7 +37,7 @@ body {
 .container__main__content {
   min-height: calc(100vh - 60px - 5.5em);
   overflow: auto;
-  background-color: #fff;
+  // background-color: #fff;
 }
 
 .container__sidebar {
@@ -72,9 +72,8 @@ body {
 }
 .container__main__content {
   min-height: calc(100vh - 60px - 3em);
-  overflow: auto;
+
   border-radius: 10px;
-  padding: 1em;
 }
 .container__main__header__title {
   font-size: 18px;

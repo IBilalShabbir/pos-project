@@ -1,3 +1,9 @@
+import { Header } from "../../components";
+
 export default function notifications() {
-  return <div>notifications</div>;
+  return (
+    <>
+      <Header />
+    </>
+  );
 }

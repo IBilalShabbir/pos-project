@@ -1,3 +1,9 @@
+import { Header } from "../../components";
+
 export default function reports() {
-  return <div>reports</div>;
+  return (
+    <>
+      <Header />
+    </>
+  );
 }
