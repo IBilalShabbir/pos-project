@@ -1,0 +1,24 @@
+.details__container__content__details {
+  display: flex;
+
+  border: 1px solid #cdcdcd;
+  border-radius: 10px;
+  padding: 0.5em;
+}
+.details__container__content__details__entry {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 0.5em;
+  transition: all 0.3s ease-in-out;
+}
+.details__container__content__details__entry__title {
+  color: #444444;
+  font-weight: bold;
+  font-size: 18px;
+}
+.details__container__content__details__entry__subtitle {
+  color: #8d8d8d;
+  font-size: 14px;
+  font-weight: bold;
+}
