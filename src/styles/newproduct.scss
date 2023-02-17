@@ -14,6 +14,7 @@
   display: flex;
   flex-direction: column;
   flex: 1;
+  max-width: 400px;
   transition: all 0.3s ease-in-out;
 }
 .newProduct__container__content__form__row__product__label {
@@ -38,4 +39,53 @@
 .newProduct__container__content__form__row__product:focus-within
   .newProduct__container__content__form__row__product__label {
   color: var(--primary);
+}
+
+.newPorduct__container__content__form__row__select {
+  display: flex;
+  flex-direction: column;
+  min-width: 140px;
+  transition: all 0.3s ease-in-out;
+  position: relative;
+  margin-left: 1em;
+}
+.newPorduct__container__content__form__row__select select {
+  padding: 0.5em;
+  font-weight: inherit;
+  border: 1px solid #bababa;
+  color: #444;
+  outline: none;
+  border-radius: 5px;
+}
+
+.newPorduct__container__content__form__row__select label {
+  margin-bottom: 0.5em;
+  color: #8d8d8d;
+}
+
+.newPorduct__container__content__form__row__select:focus-within
+  .newPorduct__container__content__form__row__select
+  label {
+  color: var(--primary);
+}
+.newPorduct__container__content__form__row__select:focus-within
+  .newPorduct__container__content__form__row__select
+  select {
+  border: 1px solid var(--primary);
+}
+
+.newPorduct__container__content__form__row__select__svg__container {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 16px;
+  width: 16px;
+  border-radius: 10px;
+  background-color: var(--primary__light);
+}
+.newPorduct__container__content__form__row__select__svg__container svg {
+  height: 10px;
 }

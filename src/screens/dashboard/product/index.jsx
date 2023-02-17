@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { ButtonPrimary, Header } from "../../../components";
 
 function index() {
@@ -9,7 +10,9 @@ function index() {
           <button className="product__header__buttons__button">
             Add a batch
           </button>
-          <ButtonPrimary>Add a Product</ButtonPrimary>
+          <ButtonPrimary>
+            <Link to="new-product">Add a Product</Link>
+          </ButtonPrimary>
         </div>
       </Header>
       <div className="product__container">

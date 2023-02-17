@@ -231,6 +231,10 @@
   border-radius: 10px;
   cursor: pointer;
 }
+.container__home__card__footer__button button a {
+  text-decoration: none;
+  color: #fefdfd;
+}
 .container__home__card__footer__price {
   font-weight: bold;
   color: var(--primary);
