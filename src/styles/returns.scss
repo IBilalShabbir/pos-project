@@ -1,0 +1,43 @@
+.searchBoxTwo__container__entry {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: 0.5em;
+  cursor: pointer;
+  width: 100%;
+  font-size: 14px;
+  font-weight: 600;
+  color: #6b6b6b;
+  transition: all 0.3s ease-in-out;
+}
+.searchBoxTwo__container__entry:hover {
+  background-color: #cceafc;
+  border-radius: 10px;
+  .searchBoxTwo__container__entry__number,
+  .searchBoxTwo__container__entry__name,
+  .searchBoxTwo__container__entry__price,
+  .searchBoxTwo__container__entry__quantity,
+  .searchBoxTwo__container__entry__date {
+    color: #313131;
+  }
+}
+.searchBoxTwo__container__entry__number {
+  color: var(--primary);
+  font-weight: 600;
+  text-align: right;
+  width: clamp(25px, 15%, 30px);
+  font-size: 12px;
+}
+.searchBoxTwo__container__entry__name {
+  text-align: left;
+  width: clamp(100px, 40%, 120px);
+  margin-left: -1em;
+}
+.searchBoxTwo__container__entry__price {
+  text-align: right;
+  width: clamp(40px, 15%, 50px);
+}
+.returns__container__content {
+  display: flex;
+  width: 100%;
+}

@@ -1,9 +1,16 @@
-import { Header } from "../../components";
+import { ButtonPrimary, Header } from "../../components";
 
 export default function product() {
   return (
     <>
-      <Header />
+      <Header>
+        <div className="product__header__buttons">
+          <button className="product__header__buttons__button">
+            Add a batch
+          </button>
+          <ButtonPrimary>Add a Product</ButtonPrimary>
+        </div>
+      </Header>
       <div className="product__container">
         <div className="product__container__header">
           <div className="product__container__header__left">

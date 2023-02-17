@@ -110,3 +110,17 @@
 .product__container__body ::-webkit-scrollbar-button {
   display: none;
 }
+.product__header__buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.product__header__buttons__button {
+  border: 1px solid #cbcbcb;
+  border-radius: 10px;
+  padding: 1em;
+  font-weight: bold;
+  color: #8a8a8a;
+  margin-right: 1em;
+  cursor: pointer;
+}

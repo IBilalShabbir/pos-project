@@ -1,5 +1,5 @@
 import { PngProfilePic } from "../../assets";
-import { Header, SearchBoxEntry } from "../../components";
+import { ButtonPrimary, Header, SearchBoxEntry } from "../../components";
 export default function index() {
   return (
     <>
@@ -328,9 +328,7 @@ export default function index() {
               </div>
             </div>
             <div className="container__home__card__footer">
-              <div className="container__home__card__footer__button">
-                <button>Collect Bill</button>
-              </div>
+              <ButtonPrimary>Collect Bill</ButtonPrimary>
               <div className="container__home__card__footer__price">
                 Total Bill <span>2300</span>
               </div>

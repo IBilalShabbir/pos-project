@@ -1,7 +1,7 @@
 import React from "react";
 
 function Popup() {
-  const [showPopup, setShowPopup] = React.useState(false);
+  const [showPopup, setShowPopup] = React.useState(true);
   return (
     showPopup && (
       <div className="popup__container">
