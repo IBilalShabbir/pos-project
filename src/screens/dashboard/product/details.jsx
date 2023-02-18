@@ -38,6 +38,46 @@ function Details() {
                 23900
               </div>
             </div>
+            <div className="details__container__content__details__entry">
+              <div className="details__container__content__details__entry__subtitle">
+                Category
+              </div>
+              <div className="details__container__content__details__entry__title">
+                Medicine
+              </div>
+            </div>
+            <div className="details__container__content__details__entry">
+              <div className="details__container__content__details__entry__subtitle">
+                Status
+              </div>
+              <div className="details__container__content__details__entry__title">
+                Active
+              </div>
+            </div>
+            <div className="details__container__content__details__entry">
+              <div className="details__container__content__details__entry__subtitle">
+                Manufacturer
+              </div>
+              <div className="details__container__content__details__entry__title">
+                Mugahal
+              </div>
+            </div>
+            <div className="details__container__content__details__entry">
+              <div className="details__container__content__details__entry__subtitle">
+                Distributor
+              </div>
+              <div className="details__container__content__details__entry__title">
+                23900
+              </div>
+            </div>
+            <div className="details__container__content__details__entry">
+              <div className="details__container__content__details__entry__subtitle">
+                Sale Price
+              </div>
+              <div className="details__container__content__details__entry__title">
+                23900
+              </div>
+            </div>
           </div>
           <div className="details__container__content__batch"></div>
         </div>

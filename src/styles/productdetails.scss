@@ -1,16 +1,24 @@
 .details__container__content__details {
   display: flex;
-
   border: 1px solid #cdcdcd;
   border-radius: 10px;
-  padding: 0.5em;
+  padding: 1em 0em;
+  justify-content: space-evenly;
 }
 .details__container__content__details__entry {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  padding: 0.5em;
+  padding: 0em 1em;
   transition: all 0.3s ease-in-out;
+  border-right: 1px solid #a5a5a5;
+}
+.details__container__content__details__entry:last-child {
+  border-right: none;
+}
+.details__container__content__details__entry:first-child
+  .details__container__content__details__entry__title {
+  color: var(--primary);
 }
 .details__container__content__details__entry__title {
   color: #444444;
