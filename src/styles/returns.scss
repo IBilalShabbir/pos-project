@@ -41,3 +41,30 @@
   display: flex;
   width: 100%;
 }
+.report__section__search {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  margin: 12px 0px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #161616;
+  padding: 0.3em;
+  border-radius: 10px;
+  background-color: #f2f2f2;
+}
+.report__section__search input {
+  width: 100%;
+  border: none;
+  outline: none;
+  display: flex;
+  margin: 8px 16px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #161616;
+  border-radius: 10px;
+  background-color: #f2f2f2;
+}
+.report__section__search input::placeholder {
+  color: #0095ef;
+}
