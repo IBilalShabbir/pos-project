@@ -31,10 +31,9 @@
   font-weight: bold;
 }
 .details__container__content__batch__main {
-  width: 100%;
+  width: fit-content;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
   margin: 1em 0em;
   border-radius: 10px;
   border: 1px solid #a5a5a5;
